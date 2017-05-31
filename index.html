@@ -5,27 +5,29 @@
 		</title>
 		<style type="text/css">
             #square-red{
-                height: 100px;
-                width: 100px;
-				background-color: red;
+                background-color: red;
+				border: 5px yellow solid;
             }
 			#square-blue{
-                height: 100px;
-                width: 100px;
-				background-color: blue;
+                background-color: blue;
+                border: 5px red;
+                border-style: dashed dotted solid ridge;
             }
 			#square-green{
+                background-color: green;
+            }
+            .square{
                 height: 100px;
                 width: 100px;
-				background-color: green;
+				margin: 40px;
+                float: left;
             }
-            
 			
 		</style>
 	</head>
 	<body>
-        <div id="Square-red"></div>
-        <div id="Square-blue"></div> 
-		<div id="Square-green"></div> 
+        <div id="Square-red" class="square"></div>
+        <div id="Square-blue" class="square"></div> 
+		<div id="Square-green" class="square"></div> 
 	</body>
 </html>
