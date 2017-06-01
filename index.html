@@ -30,6 +30,7 @@
             p{
                 font-size: 200%;
                 font-family: 'Open Sans', sans-serif;
+				
             }
             .clear{
                 clear:both;
@@ -51,6 +52,15 @@
 				text-decoration: underline;
 				color: green;
 			}
+			.center{
+				text-align: center;
+				
+			}
+			div{
+				width: 300px;
+				height: 500px;
+				background-color: green;
+			}
 		</style>
 	</head>
 	<body>
@@ -60,7 +70,12 @@
         <p class="clear">Test Paragraph</p>
 		<p class="bold">This is bold text.</p>
 		<p><span class="italic">This is italic text!</span><span class="bold"> And this is bold and italic.</span></p>
-		<p class="underlined">Underlined Paragraph</p>
+		/*Below, I put paragragraph tag inside div, so style applies to div section */
+		/*Div is set with width and height, whereas paragraph is alinged to center*/
+		<div>
+			<p class="underlined center">Underlined Paragraph
+			</p>
+		</div>
 		<a href="">Test_Link</a>
 	</body>
 </html>
